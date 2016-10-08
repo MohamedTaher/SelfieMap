@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/icon_bar"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/camera"
+        android:onClick="camera">
+
+        <ImageView
+            android:layout_width="@dimen/iconSq"
+            android:layout_height="@dimen/iconSq"
+            android:src="@drawable/camera"
+            android:tint="@color/not_selected"
+            android:id="@+id/imgCamera"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/camera"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:id="@+id/txtCamera"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/map"
+        android:onClick="map">
+
+        <ImageView
+            android:layout_width="@dimen/iconSq2"
+            android:layout_height="@dimen/iconSq2"
+            android:src="@drawable/map"
+            android:tint="@color/not_selected"
+            android:id="@+id/imgMap"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/map"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:id="@+id/txtMap"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/images"
+        android:onClick="album">
+
+        <ImageView
+            android:layout_width="@dimen/iconSq"
+            android:layout_height="@dimen/iconSq"
+            android:src="@drawable/album"
+            android:tint="@color/not_selected"
+            android:id="@+id/imgImages"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/images"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:id="@+id/txtImages"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/favorite"
+        android:onClick="favorite">
+
+        <ImageView
+            android:layout_width="@dimen/iconSq2"
+            android:layout_height="@dimen/iconSq2"
+            android:src="@drawable/favorite_icon"
+            android:tint="@color/not_selected"
+            android:id="@+id/imgFavorite"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/favorite"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:id="@+id/txtFavorite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/search"
+        android:onClick="search">
+
+        <ImageView
+            android:layout_width="@dimen/iconSq2"
+            android:layout_height="@dimen/iconSq2"
+            android:src="@drawable/search"
+            android:tint="@color/not_selected"
+            android:id="@+id/imgSearch"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:id="@+id/txtSearch"/>
+
+    </LinearLayout>
+
+</LinearLayout>

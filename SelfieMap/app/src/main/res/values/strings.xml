@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Selfie Map</string>
+
+    <!-- QuickAccess Activity Strings -->
+    <string name="camera">Camera</string>
+    <string name="map">Map</string>
+    <string name="search">Search</string>
+    <string name="images">Images</string>
+    <string name="favorite">Favorite </string>
+    <string name="about">About</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="imgPosition">position</string>
+
+    <string name="curLoc">Current Location</string>
+    <string name="delete">Delete</string>
+
+    <string name="hint_search">Type and Search</string>
+
+    <string name="lat">lat</string>
+    <string name="lng">lng</string>
+
+    <string name="favoriteShow">fav</string>
+</resources>
