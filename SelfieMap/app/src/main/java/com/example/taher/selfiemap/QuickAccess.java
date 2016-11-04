@@ -98,13 +98,10 @@ public class QuickAccess extends AppCompatActivity {
                 AlertDialog myQuittingDialogBox =new AlertDialog.Builder(QuickAccess.this)
                         //set message, title, and icon
                         .setTitle("About")
-                        .setMessage("about me app ..........................\n" +
-                                "......................................\n" +
-                                ".......................................\n" +
-                                "......................................\n" +
-                                ".......................................\n"+
-                                "......................................\n" +
-                                ".......................................\n")
+                        .setMessage("This app is Images gallery related by geography" +
+                                ", it shows each image that you capture it on google map " +
+                                "and you can display each image by click on it, also you " +
+                                "can choose any image to add to your favorite list")
                         .setIcon(R.drawable.black_info)
 
                         .setNegativeButton("close", new DialogInterface.OnClickListener() {
